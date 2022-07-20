@@ -18,15 +18,12 @@
     
     .fwc-header-content{
         width: 100%;
-        text-align: center;
-
     }
     
     .fwc-header-h1{
         font-weight: 700;
         font-size: 50px;
         line-height: 60px;
-        text-align: center;
         color: #FFFFFF;
         margin-bottom: 20px;
     }
@@ -36,7 +33,6 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
-        text-align: center;
         color: rgba(255, 255, 255, 0.8);
     }
     
