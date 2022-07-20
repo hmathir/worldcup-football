@@ -210,10 +210,15 @@
 
 }
 
+.fwc-footer-menu a{
+    text-decoration: none;
+}
+
 .fwc-footer-menu ul li {
     list-style: none;
     margin-right: 50px;
 }
+
 .fwc-footer-social-icon{
     display: flex;
     justify-content: center;
