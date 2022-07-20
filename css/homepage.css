@@ -1,0 +1,231 @@
+/* Linking Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.fwc-header{
+    display: flex;
+    width: 90%;
+    height: 646px;
+    border-radius: 30px;
+    background-color: #000000;
+    margin: 50px auto 180px;
+    padding: 106px 111px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fwc-header-content{
+    width: 50%;
+}
+
+.fwc-header-h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.fwc-header-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.fwc-header-a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    font-size: 20px;
+    line-height: 23.46px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+.fwc-header-img{
+    width: 50%;
+}
+
+.fwc-header-img img{
+    width: 100%;
+    position: relative;
+    bottom: -43px;
+    left: 40px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {left: 100px; bottom: -43px;}
+    25%  {left: 40px; bottom: -43px;}
+    50%  {left: 100px; bottom: -43px;}
+    100% {left: 40px; bottom: -43px;}
+  }
+
+
+/* Content Section Started */
+.fwc-content-section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fwc-section-toggle-btn{
+    margin: 0px 20px 0px 0px;
+    padding: 30px 30px;
+    width: 312px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background: #161616;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.fwc-section-toggle-btn a{
+    text-decoration: none;
+    padding: 10px 5px;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #000000;
+}
+
+
+.fwc-btn{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+.fwc-btn a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #ff0000;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #161616;
+    display: none;
+}
+
+
+#fwc-blogs-btn{
+    background-color: #ff0000;
+    color: #FFFFFF;
+}
+.fwc-section-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 24px;
+    width: 100%;
+}
+
+.fwc-articles{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.fwc-article-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.fwc-article-img img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.fwc-article-content a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #000000;
+    margin: 0px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.fwc-article-content h3{
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+}
+
+.fwc-rate-review{
+    display: flex;
+    padding: 15px 20px;
+    column-gap: 30px;
+}
+
+
+/* Footer Started */
+.fwc-footer{
+    margin-top: 130px;
+    text-align: center;
+    background-color: #161616;
+    color: #FFFFFF;
+    padding: 130px ;
+}
+.fwc-footer-title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fwc-footer hr{
+    margin: 50px auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 90%;
+}
+
+.fwc-footer-menu ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.fwc-footer-menu ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+.fwc-footer-social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fwc-footer-social-icon a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa-brands{
+    font-size: 30px;
+    margin: 30px 5px;
+}
