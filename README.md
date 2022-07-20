@@ -1,4 +1,5 @@
-"FIFA World Cup 2022" Responsive HTML & CSS Template Using FLEX & GRID.
+<h2> "FIFA World Cup 2022" </h2> 
+<h3> Responsive HTML & CSS Template Using FLEX & GRID. </h3>
 
 ![screencapture-127-0-0-1-5500-index-html-2022-07-21-01_31_14](https://user-images.githubusercontent.com/45460114/180066253-3c551c17-0f45-4479-bcce-24a8f2d99946.jpg)
 
